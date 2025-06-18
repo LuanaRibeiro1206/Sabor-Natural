@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(./font/Poppins\ _\ Adobe\ Fonts.html);
+}
+
+.conteudo-banner {
+    width: 80vw;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+#parallax {
+    height: 250px;
+
+    /* background-image: url(./img/parallax.svg); */
+    background: linear-gradient(rgba(0, 0, 0, 0.26)), url(./imgs/parallax.jpg);
+    background-attachment: fixed;
+    background-size: 30%;
+    margin-bottom: 120px;
+}
