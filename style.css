@@ -1,3 +1,10 @@
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
    body {
        margin: 0;
        font-family: 'Montserrat', Arial, sans-serif;
@@ -193,7 +200,7 @@
 
        
    .footer-instagram {
-       color: #7b8a3a;
+       color: #ffffff;
        font-size: 1rem;
        display: flex;
        align-items: center;
