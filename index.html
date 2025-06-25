@@ -1,35 +1,76 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nome do Site</title>
-    <!-- CSS externo -->
+    <title>Sabor Natural</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <style>
 
-    <!-- Cabeçalho do site -->
-    <header>
-        <div class="container">
-            <nav>
-                <ul>
-                    <li><a href="#Explorar">Início</a></li>
-                    <li><a href="#Sobre a marca">Sobre</a></li>
-                    <li><a href="#Dúvidas">Serviços</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="conteudo-banner">
-            <img src="./imgs/BANNER 01.jpg" alt="banner">
-            <img src="./imgs/Logo Code.png" alt="Logo">
+    </style>
+</head>
+
+<body>
+    <!-- Banner principal -->
+    <header class="banner">
+        <nav class="menu">
+            <a href="#explorar">Explorar</a>
+            <a href="#sobre">Sobre a marca</a>
+            <a href="#duvidas">Dúvidas</a>
+        </nav>
+        <div class="logo-titulo">
+          <img src="./imgs/Logo Code.png" alt="">
         </div>
     </header>
 
+    <!-- Parallax frutas -->
+    <div class="parallax-frutas"></div>
 
-    <section id="parallax"></section>
-    
+    <!-- Sobre a marca -->
+    <section id="sobre" class="sobre-marca">
+        <div class="sobre-texto">
+            <h2>Sobre a marca</h2>
+            <p>A marca Sabor Natural é especializada em proporcionar sabor e qualidade para seus clientes</p>
+        </div>
+        <div class="sobre-img">
+            <img src="./imgs/sobre a marca foto.jpg" alt="Foto de frutas">
+        </div>
+    </section>
+
+    <!-- Parallax frutas -->
+    <div class="parallax-frutas"></div>
+
+    <!-- Produtos -->
+    <section id="produtos" class="produtos">
+        <h2>Sobre nossos produtos:</h2>
+        <div class="produtos-grid">
+            <div class="card">
+                <img src="./imgs/frutas foto.jpg" alt="Frutas">
+                <p>Frutas</p>
+            </div>
+            <div class="card">
+                <img src="./imgs/verduras foto.jpg" alt="Verduras">
+                <p>Verduras</p>
+            </div>
+            <div class="card">
+                <img src="./imgs/legumes foto.jpg" alt="Legumes">
+                <p>Legumes</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-content">
+          <img src="./imgs/Logo Code.png" alt="">
+            <span class="footer-instagram">
+                <img src="./imgs/icone do instagram.png" alt="Instagram">
+                <a href="https://instagram.com/sabornaturall__" target="_blank">@sabornaturall__</a>
+            </span>
+        </div>
+    </footer>
 </body>
-</html>
 
+</html>
